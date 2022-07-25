@@ -19,3 +19,9 @@ curl --location --request POST 'http://127.0.0.1:8001/api/email' \
     "to" : "rubens.curvello@hotmail.com",
     "subject": "assunto"
 }'
+
+---------------------------------------
+
+DOCKER COMSPOSE
+1- docker-compose up -d
+2- entrar no container do app e executar o composer install
